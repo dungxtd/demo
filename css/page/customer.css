@@ -1,0 +1,60 @@
+.page-title{height: 40px;display: flex;align-items: center;}
+
+.page-title .page-right{
+    position:  absolute;
+    right: 24px;
+}
+
+.page-title .page-left{
+    font-size: 24px;
+    font-weight:bold;
+}
+
+
+.toolbar{
+    margin-top: 16px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    height: 42px;
+    /* background-color: #ff0000; */
+}
+
+.grid{
+    position: absolute;
+    right:  24px;
+    left: 24px;
+    bottom: 60px;
+    top: 128px;
+    overflow-y: auto;
+}
+
+.paging{
+    position: absolute;
+    bottom:0;
+    height: 60px;
+    left: 24px;
+    right: 24px;
+}
+
+.m-col{
+width: 50%;
+float: left;
+padding: 0 4px;
+box-sizing: border-box;
+}
+
+.m-row{
+    width: 100%;
+    display: flex;
+    margin-top: 8px;
+    position: relative;
+}
+
+.m-row label{
+    display: block;
+}
+
+.m-row input, select{
+    margin-top: 4px;
+}

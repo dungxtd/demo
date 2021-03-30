@@ -1,0 +1,58 @@
+﻿@import url('components/button.css');
+@import url('components/input.css');
+@import url('components/table.css');
+@import url('components/dialog.css');
+@import url('components/icon.css');
+@import url('components/combobox.css');
+
+
+body {
+    margin: 0;
+}
+
+.bg-primary {
+    background-color: #01B075;
+}
+
+
+.text-align-center{
+    text-align: center;
+}
+
+.text-align-right{
+    text-align: right;
+}
+
+a{
+    text-decoration: none;
+    color: #000;;
+    cursor: pointer;
+}
+body{
+    font-family: GoogleSans-Regular;
+    font-size: 13px;
+}
+
+@font-face {
+    font-family: 'GoogleSans-Regular';
+    src: url('../content/font/GoogleSans-Regular.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'GoogleSans-Bold';
+    src: url('../content/font/GoogleSans-Bold.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'GoogleSans-Italic';
+    src: url('../content/font/GoogleSans-Italic.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'GoogleSans-BoldItalic';
+    src: url('../content/font/GoogleSans-BoldItalic.otf') format('opentype');
+}
+
+.bg-selected-row{
+    background-color: #f0f0f0;
+}
